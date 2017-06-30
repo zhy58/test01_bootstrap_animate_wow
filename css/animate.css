@@ -1,0 +1,12 @@
+.movement_up{
+	animation: movement_up 1s ease both;
+}
+.movement_up_delay{
+	animation: movement_up 1s ease 0.5s both;
+}
+
+
+@keyframes movement_up{
+	from{transform: translate(0,300px);opacity: 0;}
+	to{transform: translate(0,0);opacity: 1;}
+}
